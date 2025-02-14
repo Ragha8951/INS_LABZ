@@ -1,4 +1,4 @@
-# Binary Encryption & Decryption
+# Fiestel_Cypher Encryption & Decryption
 
 [**Live Demo**](https://colab.research.google.com/drive/1ZY9uMrAma54j3qTggcRKD0iICZjRhZmU?usp=sharing)
 
