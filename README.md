@@ -37,6 +37,9 @@ Decrypted = (ASCII value - 48 - k) % 10 + 48
 
 ## How to Use
 
+## Live Demo
+You can try the live demo on Google Colab: [Click Here](https://colab.research.google.com/drive/1tFh_fFkAVRqQ7okOzRgibYXADYSuZBXs?usp=sharing)
+
 1. Run the Python script.
 2. Enter the text you want to encrypt.
 3. Provide a shift value (k).
