@@ -1,75 +1,30 @@
-# Caesar Cipher Encryption & Decryption
+# Daily Code Repository
 
-This Python script implements the Caesar Cipher, a simple encryption technique where each letter in the text is shifted by a fixed number of positions.
-
-## Features
-
-- Encrypts and decrypts uppercase and lowercase letters.
-- Handles digits (0-9) with modular arithmetic.
-- Preserves spaces and special characters without modification.
-- User-friendly input and output format.
+This repository contains the daily coding exercises, solutions, and learning materials that I work on. The codes span across various topics like DSA, algorithms, and other programming challenges.
 
 ## Prerequisites
 
-- Python 3.x installed on your system.
-- Basic knowledge of running Python scripts.
+Before running or contributing to the repository, make sure you have the following installed:
 
-## How It Works
+- **Programming Language(s):** (e.g., Python, Java)
+  - Installation guides:
+    - [Python](https://www.python.org/downloads/)
+    - [Java](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html)
 
-- Encoding: Each character is shifted forward by a given number (k).
-- Decoding: Each character is shifted backward by the same number (k).
+- **Google Colab:**  
+  For convenience, you can use [Google Colab](https://colab.research.google.com/) to run and share your Python notebooks without installing anything locally. It’s especially useful for collaborative work.
 
-### Formula Used
-
-For letters:
-
-```
-Encrypted = (ASCII value - base + k) % 26 + base
-Decrypted = (ASCII value - base - k) % 26 + base
-```
-
-For digits:
-
-```
-Encrypted = (ASCII value - 48 + k) % 10 + 48
-Decrypted = (ASCII value - 48 - k) % 10 + 48
-```
+- **Libraries/Packages:**  
+  You might need to install some additional libraries depending on the language or project. For example, in Python:
+    ```bash
+    pip install -r requirements.txt
+    ```
 
 ## How to Use
 
-## Live Demo
-You can try the live demo on Google Colab: [Click Here](https://colab.research.google.com/drive/1tFh_fFkAVRqQ7okOzRgibYXADYSuZBXs?usp=sharing)
-
-1. Run the Python script.
-2. Enter the text you want to encrypt.
-3. Provide a shift value (k).
-4. The program will return:
-   - Encoded message (encrypted text).
-   - Decoded message (original text).
-
-## Example Usage
-
-```
-Enter a string: Hello 123
-Enter the value to be shifted: 3
-
-YOUR ENTERED TEXT: Hello 123
-The encoded message is: Khoor 456
-The decoded message is: Hello 123
-```
-
-## Notes
-
-- Works for both uppercase and lowercase letters.
-- Numbers cycle through 0-9 instead of stopping at 9.
-- Symbols, spaces, and special characters remain unchanged.
-
-## Future Enhancements
-
-- Add support for negative shift values.
-- Extend the cipher to handle Unicode characters.
-- Implement a GUI version for better usability.
-
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/daily-code-repo.git
 ## Contribution
 
 Contributions are welcome! If you find any issues or have suggestions for improvements, feel free to create a pull request or open an issue on GitHub.
