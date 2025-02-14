@@ -1,5 +1,7 @@
 # Mono Alphabet Substitution Cipher
 
+[**Live Demo**](https://colab.research.google.com/drive/1VQv8Dp0BcxIMqHCkeJvRnS0qsmSUItXg?usp=sharing)
+
 This Python script implements an Alphabet Substitution Cipher, where each letter in the plaintext is substituted with a corresponding letter from a second predefined list. It can encode and decode messages based on this substitution rule.
 
 ## Features
@@ -30,7 +32,6 @@ Decoded Character = sl[bt.index(cipher_text)]
 
 ---
 
-
 ## How to Use
 
 1. Run the Python script.
@@ -45,7 +46,6 @@ Encoded text is: Qhhpo pwtp
 
 Enter the cipher text: Qhhpo pwtp  
 Decoded text is : hello world
-
 
 ## Notes
 
@@ -64,11 +64,9 @@ Contributions are welcome! If you find any issues or have suggestions for improv
 
 ## Author
 
-Developed by Raghav\
-GitHub: [@Ragha8951](https://github.com/Ragha8951)\
-Email: [ragha8951@gmail.com](mailto\:ragha8951@gmail.com)
+ 
+GitHub: [@Ragha8951](https://github.com/Ragha8951)  
+Email: [ragha8951@gmail.com](mailto:ragha8951@gmail.com)  
 
 Thank you for visiting ❤️
-
-
 
