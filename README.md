@@ -74,8 +74,8 @@ Contributions are welcome! If you find any issues or have suggestions for improv
 ## Author
 
 Developed by Raghav\
-GitHub: [Raghav GitHub](https://github.com/Ragha8951)\
+GitHub: [@Ragha8951](https://github.com/Ragha8951)\
 Email: [ragha8951@gmail.com](mailto\:ragha8951@gmail.com)
 
-If you found this helpful, give it a star on GitHub.
+Thank you for visiting ❤️
 
