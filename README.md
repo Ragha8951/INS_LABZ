@@ -61,7 +61,7 @@ Contributions are welcome! If you find any issues or have suggestions for improv
 
 ## Author
 Developed by [Raghavendra]  
-GitHub: [Your GitHub Profile](https://github.com/Ragha8951)
+GitHub: [https://github.com/Ragha8951](https://github.com/Ragha8951)
 
 If you found this helpful, give it a star on GitHub.
 
