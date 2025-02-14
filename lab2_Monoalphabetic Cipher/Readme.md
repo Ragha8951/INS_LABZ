@@ -40,10 +40,10 @@ Decoded Character = sl[bt.index(cipher_text)]
 
 ## Example Usage
 
-Enter plain text : hello world
-Encoded text is: Qhhpo pwtp
-<br>
-Enter the cipher text: Qhhpo pwtp 
+Enter plain text : hello world  
+Encoded text is: Qhhpo pwtp  
+
+Enter the cipher text: Qhhpo pwtp  
 Decoded text is : hello world
 
 
