@@ -1,4 +1,4 @@
-# DES
+# Binary Encryption & Key Generation
 
 ## Live Demo
 [Run on Google Colab](https://colab.research.google.com/drive/1pSkp38ZUn0siU_gBPGlXdKqn6aNjnMYR?usp=sharing)
@@ -37,6 +37,13 @@ Key 2 = 110101101011
 ...
 Key 8 = 011011001000
 ```
+
+## Real-Life Applications
+- **Secure Communication:** Used in encrypting text messages and emails for confidentiality.
+- **Data Protection:** Helps in securing sensitive information by generating unique encryption keys.
+- **Cryptographic Key Generation:** Can be used as a fundamental step in advanced encryption algorithms.
+- **Authentication Systems:** Provides secure key-based authentication for digital applications.
+- **Blockchain & Digital Signatures:** Enhances the security of transactions in decentralized networks.
 
 ## Notes
 - The transformation uses left bit shifts for encryption.
