@@ -1,4 +1,4 @@
-# Daily Code Repository
+# Weekly Code Repository
 
 This repository contains the daily coding exercises, solutions, and learning materials that I work on. The codes span across various topics like DSA, algorithms, and other programming challenges.
 
