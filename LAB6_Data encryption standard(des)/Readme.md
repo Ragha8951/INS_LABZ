@@ -15,19 +15,48 @@
 - Basic knowledge of running Python scripts.
 
 ## How It Works
-1. The input string is converted into an 8-bit binary format.
-2. The binary data is processed to remove every 8th bit.
-3. The resulting binary string is split into two halves (left and right).
-4. Bitwise left shifts (`<<`) are applied to transform each half.
-5. The transformed halves are combined to create an intermediate key.
-6. Random indices are removed to generate different encryption keys.
-7. The script prints 8 different encryption keys.
+1. **Binary Conversion:**
+   - The input string is converted into an 8-bit binary format.
+   - Example:
+     ```bash
+     Input: "Hello"
+     Binary: 0100100001100101011011000110110001101111
+     ```
+2. **Processing Binary Data:**
+   - Every 8th bit is removed to create a modified binary string.
+   - Example:
+     ```bash
+     Processed Binary: 10010001100101101100011011001101111
+     ```
+3. **Splitting into Two Halves:**
+   - The processed binary is divided into left and right halves.
+   - Example:
+     ```bash
+     Left: 10010001100
+     Right: 10110110011
+     ```
+4. **Bitwise Left Shift:**
+   - Each half is shifted left by predefined values (e.g., 2, 3, 6, etc.).
+   - Example (if shift = 2):
+     ```bash
+     Left Shifted: 01000110000
+     Right Shifted: 11011001100
+     ```
+5. **Key Generation:**
+   - The transformed halves are combined into an intermediate key.
+   - Random indices are removed to generate encryption keys.
+   - Example:
+     ```bash
+     Key 1 = 101010011010
+     Key 2 = 110101101011
+     ```
+6. **Final Output:**
+   - The script prints 8 different encryption keys.
 
 ## How to Use
 1. Run the Python script.
 2. Enter the string you want to encrypt.
-3. The program will return:
-   - 8 different encryption keys.
+3. The program will return 8 different encryption keys.
 
 ## Example Usage
 ```bash
@@ -60,6 +89,7 @@ Contributions are welcome! If you find any issues or have suggestions for improv
 
 ## Author
 **GitHub:** [@Ragha8951](https://github.com/Ragha8951)  
-**Email:** ragha8951@gmail.com
+**Email:** [ragha8951@gmail.com](mailto:ragha8951@gmail.com)
 
 Thank you for visiting ❤️
+
