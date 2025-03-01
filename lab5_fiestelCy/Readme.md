@@ -19,12 +19,17 @@ This Python script converts a string into its binary equivalent and performs enc
 
 ## How It Works
 
-- The input string is converted into an 8-bit binary representation.
-- The binary string is split into two halves.
-- A key (also converted into binary) is used for transformations.
-- Binary addition and XOR operations are applied.
-- The halves are swapped and the process is repeated.
-- The final binary output is converted back to text.
+1. **Convert to Binary**: The input string is converted into an 8-bit binary representation.
+2. **Split into Halves**: The binary string is divided into two equal halves: `left` and `right`.
+3. **Convert Key to Binary**: The input key is also converted into an 8-bit binary format.
+4. **First Round of Encryption**:
+   - Perform binary addition of `right` half and the key.
+   - XOR the result with `left` half to generate a new `right`.
+   - Swap `left` and `right` halves.
+5. **Second Round of Encryption**:
+   - Repeat the previous steps with the swapped halves.
+   - The final `left` and `right` halves are concatenated to form the encrypted binary string.
+6. **Convert Back to Text**: The binary result is converted back into a readable text format.
 
 ## How to Use
 
