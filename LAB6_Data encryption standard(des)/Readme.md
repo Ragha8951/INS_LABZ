@@ -1,4 +1,4 @@
-# Binary Encryption & Key Generation
+# DES
 
 ## Live Demo
 [Run on Google Colab](https://colab.research.google.com/drive/1pSkp38ZUn0siU_gBPGlXdKqn6aNjnMYR?usp=sharing)
